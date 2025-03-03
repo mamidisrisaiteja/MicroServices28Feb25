@@ -2,15 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserver" />
         <module name="configserver (1)" />
         <module name="configserver" />
         <module name="configserver (2)" />
       </profile>
-      <profile name="Annotation profile for loans" enabled="true">
+      <profile name="Annotation profile for accounts" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -50,6 +52,7 @@
       <module name="configserver" options="-parameters" />
       <module name="configserver (1)" options="-parameters" />
       <module name="configserver (2)" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
       <module name="loans" options="-parameters" />
       <module name="loans (1)" options="-parameters" />
       <module name="loans (2)" options="-parameters" />

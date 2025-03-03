@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/section8/accounts/pom.xml" />
         <option value="$PROJECT_DIR$/section8/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/configserver/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/section8/eurekaserver/pom.xml" />
       </list>
     </option>
   </component>

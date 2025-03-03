@@ -9,9 +9,12 @@ import io.swagger.v3.oas.annotations.info.License;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
+@EnableFeignClients  // this will enable accounts micro svc to connect with other
+//micro services like loans and card// communicatino between svc to svc
 /*@ComponentScans({ @ComponentScan("com.eazybytes.accounts.controller") })
 @EnableJpaRepositories("com.eazybytes.accounts.repository")
 @EntityScan("com.eazybytes.accounts.model")*/
